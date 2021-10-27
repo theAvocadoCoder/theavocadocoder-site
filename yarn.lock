@@ -3718,13 +3718,6 @@ eslint-loader@^2.2.1:
     object-hash "^1.1.4"
     rimraf "^2.6.1"
 
-eslint-plugin- @^3.3.1:
-  version "3.4.1"
-  resolved "https://registry.nlark.com/eslint-plugin- /download/eslint-plugin- -3.4.1.tgz#e9ddb200efb6f3d05ffe83b1665a716af4a387e5"
-  integrity sha1-6d2yAO+289Bf/oOxZlpxavSjh+U=
-  dependencies:
-     -linter-helpers "^1.0.0"
-
 eslint-plugin-vue@^7.0.0:
   version "7.20.0"
   resolved "https://registry.npmmirror.com/eslint-plugin-vue/download/eslint-plugin-vue-7.20.0.tgz?cache=0&sync_timestamp=1634704263898&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Feslint-plugin-vue%2Fdownload%2Feslint-plugin-vue-7.20.0.tgz#98c21885a6bfdf0713c3a92957a5afeaaeed9253"
