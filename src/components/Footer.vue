@@ -1,6 +1,15 @@
 <template>
   <div
-    class="relative bottom-0 max-w-screen flex flex-col bg-gray-800 text-white"
+    class="
+      relative
+      bottom-0
+      max-w-screen
+      h-24
+      p-4
+      flex flex-col
+      bg-gray-800
+      text-white
+    "
   >
     <p class="">Copyright &copy; 2021 theAvocadoCoder</p>
 

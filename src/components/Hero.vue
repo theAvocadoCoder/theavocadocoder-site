@@ -1,19 +1,19 @@
 <template>
   <div>
     <!-- HERO -->
-    <section id="home" class="flex items-center justify-center">
+    <section id="home" class="flex pt-44 justify-center h-screen">
       <div class="m-2">
         <div class="">
-          <div class="flex gap-4">
+          <div class="flex flex-col gap-4">
             <div class="object-cover flex items-center justify-center">
               <img
-                class="h-32 rounded-full"
+                class="h-40 rounded-full"
                 src="@/assets/profile-image.jpg"
                 alt="image of Kelechi"
               />
             </div>
 
-            <div class="flex self-center">
+            <div class="flex self-center text-3xl font-sans font-bold">
               <h1 class="">🥑 K, a curious avocado</h1>
             </div>
           </div>
