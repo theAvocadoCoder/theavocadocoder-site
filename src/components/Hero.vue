@@ -23,9 +23,8 @@
         <div class="flex items-center justify-center h-5/12">
           <div class="flex text-center bg-gray-300 p-5 w-2/3 h-full rounded-md">
             <p>
-              I am a self-taught full-stack web developer, constantly seeking
-              out fun ways to learn new things. I enjoy novelty and creative
-              expression.
+              I am a full-stack web developer, constantly seeking out fun ways
+              to learn new things. I enjoy novelty and creative expression.
             </p>
           </div>
         </div>
@@ -40,9 +39,6 @@
           <div class="flex gap-7 flex-col md:flex-row">
             <a href="tel:+2348061116006">
               <Icon icon="fa:phone" class="h-10 w-10" />
-            </a>
-            <a href="tel:+2349055967852">
-              <Icon icon="fa:whatsapp" class="h-10 w-10" />
             </a>
             <a href="mailto:theavocadocoder@gmail.com?subject=Inquiry%20Email">
               <Icon icon="fa:envelope" class="h-10 w-10" />
