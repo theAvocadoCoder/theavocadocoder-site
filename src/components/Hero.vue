@@ -34,18 +34,22 @@
     </section>
 
     <section id="contact" class="h-screen bg-gray-200">
-      <div class="flex flex-col md:flex-row items-center justify-center">
-        <h3 class="text-2xl font-sans font-bold">Hit Me Up!</h3>
+      <div class="flex items-center justify-center h-full">
+        <div class="flex flex-col items-center justify-center">
+          <h3 class="text-2xl font-sans font-bold">Hit Me Up!</h3>
 
-        <a href="tel:+2348061116006">
-          <Icon icon="fa-solid:phone" class="h-5" />
-        </a>
-        <a href="mailto:theavocadocoder@gmail.com?subject=Inquiry">
-          <Icon icon="fa-solid:mail" class="h-5" />
-        </a>
-        <a target="_blank" href="twitter.com/theavocadocoder">
-          <Icon icon="fa-solid:twitter" class="h-5" />
-        </a>
+          <div class="flex flex-col md:flex-row">
+            <a href="tel:+2348061116006">
+              <Icon icon="fa:phone" class="h-5" />
+            </a>
+            <a href="mailto:theavocadocoder@gmail.com?subject=Inquiry%20Email">
+              <Icon icon="fa:envelope" class="h-5" />
+            </a>
+            <a target="_blank" href="twitter.com/theavocadocoder">
+              <Icon icon="fa:twitter" class="h-5" />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   </div>
