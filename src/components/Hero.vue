@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- HERO -->
     <section
       id="home"
       class="flex items-center justify-center h-screen bg-gray-50"
@@ -35,18 +34,18 @@
 
     <section id="contact" class="h-screen bg-gray-200">
       <div class="flex items-center justify-center h-full">
-        <div class="flex flex-col items-center justify-center">
+        <div class="flex flex-col gap-7 items-center justify-center">
           <h3 class="text-2xl font-sans font-bold">Hit Me Up!</h3>
 
-          <div class="flex flex-col md:flex-row">
+          <div class="flex gap-7 flex-col md:flex-row">
             <a href="tel:+2348061116006">
-              <Icon icon="fa:phone" class="h-5" />
+              <Icon icon="fa:phone" class="h-10 w-10" />
+            </a>
+            <a href="tel:+2349055967852">
+              <Icon icon="fa:whatsapp" class="h-10 w-10" />
             </a>
             <a href="mailto:theavocadocoder@gmail.com?subject=Inquiry%20Email">
-              <Icon icon="fa:envelope" class="h-5" />
-            </a>
-            <a target="_blank" href="twitter.com/theavocadocoder">
-              <Icon icon="fa:twitter" class="h-5" />
+              <Icon icon="fa:envelope" class="h-10 w-10" />
             </a>
           </div>
         </div>
