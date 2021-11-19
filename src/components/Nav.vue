@@ -14,8 +14,7 @@
         </div>
         <div>
           <router-link to="/">Home</router-link> |
-          <router-link to="/projects">Projects</router-link> |
-          <a></a>
+          <router-link to="/projects">Projects</router-link>
         </div>
       </div>
     </div>

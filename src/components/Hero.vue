@@ -1,7 +1,10 @@
 <template>
   <div>
     <!-- HERO -->
-    <section id="home" class="flex items-center justify-center h-screen">
+    <section
+      id="home"
+      class="flex items-center justify-center h-screen bg-gray-50"
+    >
       <div class="flex flex-col gap-4">
         <div class="object-cover flex items-center justify-center">
           <img
@@ -10,42 +13,50 @@
             alt="image of Kelechi"
           />
         </div>
-        <div class="flex self-center text-3xl font-sans font-bold type-effect">
+        <div class="flex self-center text-2xl font-sans font-bold type-effect">
           <h1 class="type-effect">K, a curious avocado 🥑</h1>
         </div>
       </div>
     </section>
 
-    <section id="about" class="h-screen">
-      <div class="flex flex-col items-center justify-center">
-        <h3 class="">About Me</h3>
-
-        <div class="flex items-center justify-center w-2/3">
-          <p>
-            I am a self-taught full-stack web developer, constantly seeking out
-            fun ways to learn new things. I enjoy novelty and creative
-            expression.
-          </p>
+    <section id="about" class="h-screen bg-gray-100">
+      <div class="flex items-center justify-center h-full">
+        <div class="flex items-center justify-center h-5/12">
+          <div class="flex text-center bg-gray-300 p-5 w-2/3 h-full rounded-md">
+            <p>
+              I am a self-taught full-stack web developer, constantly seeking
+              out fun ways to learn new things. I enjoy novelty and creative
+              expression.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="h-screen">
-      <div class="flex flex-col items-center justify-center">
-        <h3 class="">Hit Me Up!</h3>
+    <section id="contact" class="h-screen bg-gray-200">
+      <div class="flex flex-col md:flex-row items-center justify-center">
+        <h3 class="text-2xl font-sans font-bold">Hit Me Up!</h3>
 
-        <a href="tel:+2348061116006">+234 806 1116 006</a>
-
-        <p>
-          <a href="mailto:theavocadocoder@gmail.com">
-            theavocadocoder@gmail.com
-            <span></span>
-          </a>
-        </p>
+        <a href="tel:+2348061116006">
+          <Icon icon="fa-solid:phone" class="h-5" />
+        </a>
+        <a href="mailto:theavocadocoder@gmail.com?subject=Inquiry">
+          <Icon icon="fa-solid:mail" class="h-5" />
+        </a>
+        <a target="_blank" href="twitter.com/theavocadocoder">
+          <Icon icon="fa-solid:twitter" class="h-5" />
+        </a>
       </div>
     </section>
   </div>
 </template>
+
+<script>
+import { Icon } from "@iconify/vue";
+export default {
+  components: { Icon },
+};
+</script>
 
 <style scoped>
 .type-effect {
@@ -53,7 +64,7 @@
   animation: typing 3s steps(20), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
+  border-right: solid;
 }
 
 @keyframes typing {
