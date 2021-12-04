@@ -1,26 +1,16 @@
 <template>
-  <div>
-    <!--Brief intro-->
-    <section class="h-screen">
-      <div class="flex items-center justify-center h-full">
-        <div class="flex flex-col gap-5 items-center">
-          <Icon icon="fa-solid:tools" class="h-20 w-20" />
-          <p>
-            This page is currently under construction. Kindly check back later
-          </p>
-        </div>
-      </div>
-    </section>
+  <div class="max-w-screen min-h-screen">
+    <ProjectComponent />
   </div>
 </template>
 
 <script>
-import { Icon } from "@iconify/vue";
+import ProjectComponent from "@/components/ProjectComponent.vue";
 
 export default {
+  name: "ProjectComponent",
   components: {
-    Icon,
+    ProjectComponent,
   },
 };
 </script>
-

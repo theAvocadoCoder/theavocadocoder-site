@@ -1,9 +1,6 @@
 <template>
   <div>
-    <section
-      id="home"
-      class="flex items-center justify-center h-screen bg-gray-50"
-    >
+    <section class="flex items-center justify-center h-screen bg-gray-50">
       <div class="flex flex-col gap-4">
         <div class="object-cover flex items-center justify-center">
           <img
@@ -18,7 +15,7 @@
       </div>
     </section>
 
-    <section id="about" class="h-screen bg-gray-100">
+    <section class="h-screen bg-gray-100">
       <div class="flex items-center justify-center h-full">
         <div class="flex items-center justify-center h-5/12">
           <div class="flex text-center bg-gray-300 p-5 w-2/3 h-full rounded-md">
@@ -31,7 +28,7 @@
       </div>
     </section>
 
-    <section id="contact" class="h-screen bg-gray-200">
+    <section class="h-screen bg-gray-200">
       <div class="flex items-center justify-center h-full">
         <div class="flex flex-col gap-7 items-center justify-center">
           <h3 class="text-2xl font-sans font-bold">Hit Me Up!</h3>

@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
+import Projects from "../views/Projects.vue";
+import JSCalc from "../views/JavaScriptCalculator.vue";
 
 const routes = [
   {
@@ -10,11 +12,13 @@ const routes = [
   {
     path: "/projects",
     name: "Projects",
-    // route level code-splitting
-    // this generates a separate chunk (Projects.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "Projects" */ "../views/Projects.vue"),
+    component: Projects,
+  },
+  {
+    path: "/projects/javascript-calculator",
+    name: "JavaScript Calculator",
+    component: JSCalc
+      
   },
 ];
 
