@@ -8,7 +8,7 @@
 import ProjectComponent from "@/components/ProjectComponent.vue";
 
 export default {
-  name: "ProjectComponent",
+  name: "Projects",
   components: {
     ProjectComponent,
   },
