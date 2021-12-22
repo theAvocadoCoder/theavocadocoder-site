@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!--Profile-->
     <section class="flex items-center justify-center h-screen bg-gray-50">
       <div class="flex flex-col gap-4">
         <div class="object-cover flex items-center justify-center">
@@ -15,6 +16,7 @@
       </div>
     </section>
 
+    <!--About-->
     <section class="h-screen bg-gray-100">
       <div class="flex items-center justify-center h-full">
         <div class="flex items-center justify-center h-5/12">
@@ -28,6 +30,7 @@
       </div>
     </section>
 
+    <!--Contact-->
     <section class="h-screen bg-gray-200">
       <div class="flex items-center justify-center h-full">
         <div class="flex flex-col gap-7 items-center justify-center">

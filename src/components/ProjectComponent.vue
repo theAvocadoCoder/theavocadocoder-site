@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="h-full flex items-center justify-center">
+    <section class="h-full flex flex-col items-center justify-center">
       <h1 class="text-2xl font-sans font-bold">Welcome, internet stranger!</h1>
       <div>
         Here are some of the projects I've worked on. I never feel like a
@@ -10,13 +10,25 @@
         you like them :)
       </div>
     </section>
-    <section class="flex flex-col justify-center p-5">
+    <section class="flex flex-col justify-center items-center p-5">
       <div
-        v-for="project in projects"
+        v-for="project of projects"
         :key="project.id"
-        class="h-3/4 w-7/12 rounded-md flex flex-col gap-5"
+        class="
+          h-3/4
+          w-42
+          rounded-md
+          flex flex-col
+          gap-5
+          bg-gray-100
+          my-5
+          px-10
+          py-5
+        "
       >
-        <span>{{ project.title }} [{{ project.progress }}%]</span>
+        <span class="font-bold"
+          >{{ project.title }} [{{ project.progress }}%]</span
+        >
         <div>{{ project.description }}</div>
         <div>
           <span>Stack:</span>
@@ -60,7 +72,7 @@ export default {
           progress: 85,
         },
         {
-          title: "PostitLister",
+          title: "Postit Lister",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
