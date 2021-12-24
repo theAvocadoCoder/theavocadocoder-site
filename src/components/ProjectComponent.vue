@@ -37,9 +37,7 @@
           </div>
         </div>
         <div>
-          <router-link :to="project.route">{{
-            project.callToAction
-          }}</router-link>
+          <a :href="project.route">{{ project.callToAction }}</a>
         </div>
       </div>
     </section>
@@ -67,7 +65,7 @@ export default {
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
-          route: "/projects/markdown-previewer",
+          route: "https://avocadocoder-javascript-calculator.netlify.app/",
           callToAction: "Write some text",
           progress: 85,
         },
