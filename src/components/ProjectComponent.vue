@@ -37,7 +37,9 @@
           </div>
         </div>
         <div>
-          <a :href="project.route">{{ project.callToAction }}</a>
+          <a target="_blank" :href="project.route">{{
+            project.callToAction
+          }}</a>
         </div>
       </div>
     </section>
