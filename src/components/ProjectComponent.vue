@@ -58,7 +58,7 @@ export default {
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
-          route: "/projects/javascript-calculator",
+          route: "https://avocadocoder-javascript-calculator.netlify.app/",
           callToAction: "Crunch some numbers",
           progress: 80,
         },
@@ -67,7 +67,7 @@ export default {
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
-          route: "https://avocadocoder-javascript-calculator.netlify.app/",
+          route: "https://avocadocoder-markdown-previewer.netlify.app/",
           callToAction: "Write some text",
           progress: 85,
         },
@@ -76,7 +76,7 @@ export default {
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
-          route: "/projects/postit-lister",
+          route: "https://avocadocoder-postit-lister.netlify.app/",
           callToAction: "Make some notes",
           progress: 70,
         },
@@ -85,7 +85,7 @@ export default {
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
-          route: "/projects/random-quotes-generator",
+          route: "https://avocadocoder-random-quotes-generator.netlify.app/",
           callToAction: "Get a random quote",
           progress: 90,
         },
@@ -94,7 +94,7 @@ export default {
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
-          route: "/projects/e-commerce-site",
+          route: "https://avocadocoder-e-commerce-site.netlify.app/",
           callToAction: "View the site",
           progress: 65,
         },
@@ -103,7 +103,7 @@ export default {
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
-          route: "/projects/tictactoe-game",
+          route: "https://avocadocoder-tictactoe.netlify.app/",
           callToAction: "Play with a mortal enemy",
           progress: 90,
         },
