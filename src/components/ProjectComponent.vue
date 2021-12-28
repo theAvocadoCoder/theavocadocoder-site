@@ -37,7 +37,7 @@
           </div>
         </div>
         <div>
-          <a target="_blank" :href="project.route">{{
+          <a :target="project.target" :href="project.route">{{
             project.callToAction
           }}</a>
         </div>
@@ -58,6 +58,7 @@ export default {
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
+          target: "_blank",
           route: "https://avocadocoder-javascript-calculator.netlify.app/",
           callToAction: "Crunch some numbers",
           progress: 80,
@@ -67,7 +68,9 @@ export default {
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
-          route: "https://avocadocoder-markdown-previewer.netlify.app/",
+          target: "",
+          // route: "https://avocadocoder-markdown-previewer.netlify.app/",
+          route: "/in-progress",
           callToAction: "Write some text",
           progress: 85,
         },
@@ -76,7 +79,9 @@ export default {
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
-          route: "https://avocadocoder-postit-lister.netlify.app/",
+          target: "",
+          // route: "https://avocadocoder-postit-lister.netlify.app/",
+          route: "/in-progress",
           callToAction: "Make some notes",
           progress: 70,
         },
@@ -85,27 +90,22 @@ export default {
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
-          route: "https://avocadocoder-random-quotes-generator.netlify.app/",
+          target: "",
+          // route: "https://avocadocoder-random-quotes-generator.netlify.app/",
+          route: "/in-progress",
           callToAction: "Get a random quote",
           progress: 90,
         },
         {
-          title: "e-Commerce Site",
+          title: "Amazon Clone",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
           stacks: [],
-          route: "https://avocadocoder-e-commerce-site.netlify.app/",
+          target: "",
+          // route: "https://avocadocoder-amazon-clone.netlify.app/",
+          route: "/in-progress",
           callToAction: "View the site",
           progress: 65,
-        },
-        {
-          title: "2-Player TicTacToe Game",
-          description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugit consequuntur, accusamus nobis provident tempora laudantium inventore esse illo non?",
-          stacks: [],
-          route: "https://avocadocoder-tictactoe.netlify.app/",
-          callToAction: "Play with a mortal enemy",
-          progress: 90,
         },
       ],
     };
